@@ -80,6 +80,6 @@ while [ "$current_date" != "$end_date" ]; do
   current_date=$(date -jf "%Y-%m-%d" -v+1d "$current_date" +"%Y-%m-%d")
 
 done
-git push origin main
+git push origin master
 rm "$filename"
 echo -e "\033[32m\n########\nDone! Go to your Github profile and enjoy your greens!\n#########\033[0m"

@@ -73,7 +73,7 @@ while [ "$current_date" != "$end_date" ]; do
       # Add more substantial content based on the language
       case "$language" in
         "java")
-          echo 'public class Main { public static void main(String[] args) { System.out.println("Hello, World!"); } }' > "$language/$filename"
+          echo 'public class master { public static void master(String[] args) { System.out.println("Hello, World!"); } }' > "$language/$filename"
           echo 'class Helper { void help() { System.out.println("Helping..."); } }' >> "$language/$filename"
           ;;
         "py")
@@ -112,5 +112,5 @@ while [ "$current_date" != "$end_date" ]; do
 
 done
 
-# git push origin main
+# git push origin master
 echo -e "\033[32m\n########\nDone! Go to your Github profile and enjoy your greens!\n#########\033[0m"

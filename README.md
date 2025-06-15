@@ -17,7 +17,7 @@ Follow this tutorial and share your feedback:
    - MacOS - chmod +x commit-macos.sh && ./commit-macos.sh
    - Windows - chmod +x commit-windows.sh && ./commit-windows.sh
    - Linux - chmod +x commit-linux.sh && ./commit-linux.sh
-6. Refresh the GitHub repository and return to your main page to view the updated "greens" :)
+6. Refresh the GitHub repository and return to your master page to view the updated "greens" :)
 
 ## Possible Errors
 
