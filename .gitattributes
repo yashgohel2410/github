@@ -1,0 +1,10 @@
+# Override the language for specific file types
+*.java linguist-language=Java
+*.py linguist-language=Python
+*.ts linguist-language=TypeScript
+*.js linguist-language=JavaScript
+
+# Mark files as documentation or vendored if necessary
+*.md linguist-documentation
+*.sh linguist-vendored
+*.json linguist-vendored
